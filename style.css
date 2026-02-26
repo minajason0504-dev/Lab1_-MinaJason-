@@ -1,0 +1,41 @@
+body {
+    margin: 2;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: linear-gradient(to right, #ffb6c1, #ffc0cb);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #ff69b4;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+p {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    font-size: 16px;
+    color: #444;
+    transition: transform 0.3s;
+}
+
+p:hover {
+    transform: scale(1.03);
+}
+
+a {
+    color: #ff1493;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c71585;
+}
